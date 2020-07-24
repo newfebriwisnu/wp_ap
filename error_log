@@ -1,0 +1,39 @@
+[03-Jan-2019 08:57:37 UTC] PHP Warning:  require(/home/u5573692/public_html/wp-blog-header.php): failed to open stream: No such file or directory in /home/u5573692/public_html/index.php on line 17
+[03-Jan-2019 08:57:37 UTC] PHP Fatal error:  require(): Failed opening required '/home/u5573692/public_html/wp-blog-header.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/u5573692/public_html/index.php on line 17
+[14-Jan-2019 13:25:49 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_jetpack_sync_constants_await' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Jetpack_Sync_Sender->do_sync, Jetpack_Sync_Sender->do_sync_and_set_delays, Jetpack_Sync_Sender->do_sync_for_queue, do_action('jetpack_sync_before_send_queue_sync'), WP_Hook->do_action, WP_Hook->apply_filters, Jetpack_Sync_Module_Constants->maybe_sync_constants, get_transient, get_option
+[14-Jan-2019 14:02:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shapely_get_header_logo() in /home/u5573692/public_html/wp-content/themes/shapely/header.php:33
+Stack trace:
+#0 /home/u5573692/public_html/wp-includes/template.php(688): require_once()
+#1 /home/u5573692/public_html/wp-includes/template.php(647): load_template('/home/u5573692/...', true)
+#2 /home/u5573692/public_html/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/u5573692/public_html/wp-content/themes/shapely/page-templates/template-home.php(10): get_header()
+#4 /home/u5573692/public_html/wp-includes/template-loader.php(74): include('/home/u5573692/...')
+#5 /home/u5573692/public_html/wp-blog-header.php(19): require_once('/home/u5573692/...')
+#6 /home/u5573692/public_html/index.php(17): require('/home/u5573692/...')
+#7 {main}
+  thrown in /home/u5573692/public_html/wp-content/themes/shapely/header.php on line 33
+[14-Jan-2019 14:02:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shapely_get_header_logo() in /home/u5573692/public_html/wp-content/themes/shapely/header.php:33
+Stack trace:
+#0 /home/u5573692/public_html/wp-includes/template.php(688): require_once()
+#1 /home/u5573692/public_html/wp-includes/template.php(647): load_template('/home/u5573692/...', true)
+#2 /home/u5573692/public_html/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/u5573692/public_html/wp-content/themes/shapely/page-templates/template-home.php(10): get_header()
+#4 /home/u5573692/public_html/wp-includes/template-loader.php(74): include('/home/u5573692/...')
+#5 /home/u5573692/public_html/wp-blog-header.php(19): require_once('/home/u5573692/...')
+#6 /home/u5573692/public_html/index.php(17): require('/home/u5573692/...')
+#7 {main}
+  thrown in /home/u5573692/public_html/wp-content/themes/shapely/header.php on line 33
+[14-Jan-2019 14:02:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shapely_get_header_logo() in /home/u5573692/public_html/wp-content/themes/shapely/header.php:33
+Stack trace:
+#0 /home/u5573692/public_html/wp-includes/template.php(688): require_once()
+#1 /home/u5573692/public_html/wp-includes/template.php(647): load_template('/home/u5573692/...', true)
+#2 /home/u5573692/public_html/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/u5573692/public_html/wp-content/themes/shapely/page-templates/template-home.php(10): get_header()
+#4 /home/u5573692/public_html/wp-includes/template-loader.php(74): include('/home/u5573692/...')
+#5 /home/u5573692/public_html/wp-blog-header.php(19): require_once('/home/u5573692/...')
+#6 /home/u5573692/public_html/index.php(17): require('/home/u5573692/...')
+#7 {main}
+  thrown in /home/u5573692/public_html/wp-content/themes/shapely/header.php on line 33
+[14-Jan-2019 14:03:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shapely_get_header_logo() in /home/u5573692/public_html/wp-content/themes/shapely/header.php:33
+Stack trace:
+#0 /home/u5573692/public_html/wp-includes/temp
